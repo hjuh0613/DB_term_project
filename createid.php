@@ -160,7 +160,7 @@ function id_overlap_check() {
 $host = 'localhost';
 $user = 'root';
 $password = 'gudwns13';
-$dbname = 'ev_charging_recommendation';
+$dbname = 'practice';
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 

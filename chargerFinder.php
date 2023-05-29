@@ -78,39 +78,17 @@
 
          <select id="region2"></select>
 
-         <select id="kindof_car">
-           <option value="일렉트리파이드 G80">일렉트리파이드 G80</option>
-           <option value="GV60">GV60</option>
-           <option value="GV70">GV70</option>
-           <option value="코나 일렉트릭">코나 일렉트릭</option>
-           <option value="아이오닉5">아이오닉5</option>
-           <option value="아이오닉6">아이오닉6</option>
-           <option value="포터2 일렉트릭">포터2 일렉트릭</option>
-           <option value="니로 EV">니로 EV</option>
-           <option value="쏘울 부스터 EV">쏘울 부스터 EV</option>
-           <option value="EV6">EV6</option>
-           <option value="봉고3 EV">봉고3 EV</option>
-           <option value="SM3 ZE">SM3 ZE</option>
-           <option value="조에">조에</option>
-           <option value="코란도 이모션">코란도 이모션</option>
-           <option value="볼트 EV">볼트 EV</option>
-           <option value="볼트 EUV">볼트 EUV</option>
-           <option value="테슬라 모델S">테슬라모델S</option>
-           <option value="테슬라 모델3">테슬라모델3</option>
-           <option value="테슬라 모델X">테슬라모델X</option>
-           <option value="테슬라 모델Y">테슬라모델Y</option>
-           <option value="이트론">이트론</option>
-           <option value="이트론GT">이트론GT</option>
-           <option value="Q4 이트론">Q4 이트론</option>
-           <option value="EQA">EQA</option>
-           <option value="EQB">EQB</option>
-           <option value="EQC">EQC</option>
-           <option value="EQE">EQE</option>
-           <option value="EQS">EQS</option>
-           <option value="i3">i3</option>
-           <option value="타이칸">타이칸</option>
-           <option value="폴스타2">폴스타2</option>
-           <option value="ID.4">ID.4</option>
+         <select id="charger_type">
+           <option value="B타입 (5핀)">B타입 (5핀)</option>
+           <option value="C타입 (5핀)">C타입 (5핀)</option>
+           <option value="BC타입 (5핀)">BC타입 (5핀)</option>
+           <option value="BC타입 (7핀)">BC타입 (7핀)</option>
+           <option value="DC차데모">DC차데모</option>
+           <option value="AC3상">AC3상</option>
+           <option value="DC콤보">DC콤보</option>
+           <option value="DC차데모+DC콤보">DC차데모+DC콤보</option>
+           <option value="DC차데모+AC3상">DC차데모+AC3상</option>
+           <option value="DC차데모+DC콤보,AC3상">DC차데모+DC콤보,AC3상</option>
          </select>
          <button type="button" onclick="submitSelection()">조회하기</button>
          <div id="result"></div>
