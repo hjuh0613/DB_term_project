@@ -159,8 +159,8 @@ function id_overlap_check() {
 <?php
 $host = 'localhost';
 $user = 'root';
-$password = '';
-$dbname = 'practice';
+$password = 'gudwns13';
+$dbname = 'ev_charging_recommendation';
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 

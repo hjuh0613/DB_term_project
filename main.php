@@ -104,7 +104,7 @@ a:hover {
 <body>
   <?php
 // 데이터베이스 연결
-$dbConn = mysqli_connect("localhost", "root", "0813", "practice");
+$dbConn = mysqli_connect("localhost", "root", "gudwns13", "ev_charging_recommendation");
 
 // 로그인 폼에서 전송된 데이터가 있는지 확인
 if ( isset($_POST['loginId']) && isset($_POST['loginPw']) ) {

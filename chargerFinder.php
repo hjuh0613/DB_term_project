@@ -189,7 +189,7 @@
            marker.setMap(map);
 
            var infowindow = new kakao.maps.InfoWindow({
-             content: '<div style="padding:5px;font-size:12px;"><b>' + response.data[i].csNm + '</b></div>'
+             content: '<div style="padding:5px;font-size:12px;text-align:center;"><b>' + response.data[i].csNm + '</b></div>'
            });
            kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
            kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
